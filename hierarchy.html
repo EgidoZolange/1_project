@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+      <meta charset="UTF-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>HTML from Zero</title>
+</head>
+<body>
+      <h1>Hierarchy</h1>
+
+      <!-- The HTML Hierarchy is comprised of nested "families" with members being considered children and brothers with each other. -->
+      <h2 class="family">
+            <div class="first-gen" id="tomasLight">
+                  <div class="second-gen" id="rockman">
+                        <div class="pet" id="rush"></div>
+                  </div>
+                  <div class="second-gen" id="roll"></div>
+            </div>
+            <div class="first-gen" id="albertWily">
+                  <div class="second-gen" id="zero"></div>
+            </div>
+      </h2>
+
+      <!-- It can also be seen as a macro to micro reference. -->
+      <h2 class="device">
+            <div class="component" id="motherboard">
+                  <div class="component" id="transistor"></div>
+                  <div class="auxiliar" id="gpu"></div>
+            </div>
+            <div class="component" id="powersource">
+                  <div class="component" id="fan"></div>
+            </div>
+      </h2>
+</body>
+</html>
